@@ -1,2 +1,2 @@
 # HW-WIREFRAME
-This ist the first homework assignmnet
+This isthe first homework assignmnet
