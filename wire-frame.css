@@ -1,9 +1,4 @@
 body{
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
     background-color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -12,25 +7,27 @@ body{
     max-width: 960px;
 }
 header{
+    float: left;
     background-color:#ebebeb;
     padding: 25px;
-    margin left:5px;
+    margin-left:5px;
     margin-top:15px;
-    margin right:5px;
+    margin-right:5px;
     margin-bottom:10px;
-    width:100%;
+    width:900px;
 
     
 }
 .nav{
+    float: left;
     background-color: #ebebeb;
     float: left;
     padding: 25px;
-    margin left:5px;
+    margin-left:5px;
     margin-top:5px;
-    margin right:5px;
+    margin-right:5px;
     margin-bottom:5px;
-    width:100%;
+    width:900px;
     
     
     
@@ -45,7 +42,7 @@ section{
     margin-bottom: 10px;
     margin-left: 5px;
     padding-top: 25px;
-    width: 420px;
+    width: 450px;
     height:200px;
     
     
@@ -57,14 +54,13 @@ article{
 }
 aside{
     float: left;
-    box-sizing: border-box
-    padding:35px;
+    padding :10px;
     margin-left: 10px;
     margin-right: 5px;
     margin-top:10px;
-    margin-bottom: 10px;
+    margin-bottom: 10;
     background-color: #ebebeb;
-    width:480px;
+    width:430px;
     height:200px;
 }
 .art{
@@ -73,14 +69,14 @@ aside{
     margin: 5px;
 }
 .footer{
-    clear: left;
+    float: left;
     background-color:#ebebeb;
     padding: 20px;
     margin-top: 5px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 10px;
     margin-left: 5px;
-    width: 100%;
+    width: 910px;
     
 }
     
